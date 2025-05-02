@@ -24,3 +24,7 @@ Build a pipeline for:
 
 ## Progress
 - **Day 1**: Set up AWS account, created S3 bucket, generated `stocks_sentiment.csv` with `generate_mock_data.py`.
+
+- Day 2: Fixed Rekognition parsing in `preprocess_data.py`. Addressed file naming inconsistency. Added `generate_rekognition.py`.
+
+

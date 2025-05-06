@@ -26,5 +26,6 @@ Build a pipeline for:
 - **Day 1**: Set up AWS account, created S3 bucket, generated `stocks_sentiment.csv` with `generate_mock_data.py`.
 
 - Day 2: Fixed Rekognition parsing in `preprocess_data.py`. Addressed file naming inconsistency. Added `generate_rekognition.py`.
+- Day 2: Trained BlazingText model in SageMaker Studio using `s3://market-analysis-tool/train/combined.csv`. Output saved to `s3://market-analysis-tool/output/`. Added `train_sagemaker.py` to repository.
 
 
